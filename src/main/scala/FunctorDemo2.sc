@@ -1,6 +1,6 @@
 
-(List(1, 2).map (_ + 8))
-(Some(1) map (_ + 1) map (_ * 3))
+List(1, 2).map (_ + 8)
+Some(4) map (_ + 1) map (_ * 3)
 
 
 /*trait Functor[M[_]] {
