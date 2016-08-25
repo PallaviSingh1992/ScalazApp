@@ -8,7 +8,7 @@
 [debug] == resolving dependencies for default#knolx$sources_2.11;1.0 [compile]
 [debug] == resolving dependencies default#knolx$sources_2.11;1.0->org.scala-lang#scala-library;2.11.8 [compile->default(compile)]
 [info] Resolving org.scala-lang#scala-library;2.11.8 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7ecb5829
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@21a92a6f
 [debug] sbt-chain: module revision found in cache: org.scala-lang#scala-library;2.11.8
 [debug] 	found org.scala-lang#scala-library;2.11.8 in sbt-chain
 [debug] 	[2.11.8] org.scala-lang#scala-library;2.11.8
@@ -17,7 +17,7 @@
 [debug] == resolving dependencies default#knolx$sources_2.11;1.0->org.scala-lang#scala-library;2.11.8 [compile->master]
 [debug] == resolving dependencies default#knolx$sources_2.11;1.0->org.typelevel#cats_2.11;0.6.1 [compile->default(compile)]
 [info] Resolving org.typelevel#cats_2.11;0.6.1 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@61a158c1
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@24cc0b89
 [debug] sbt-chain: module revision found in cache: org.typelevel#cats_2.11;0.6.1
 [debug] 	found org.typelevel#cats_2.11;0.6.1 in sbt-chain
 [debug] 	[0.6.1] org.typelevel#cats_2.11;0.6.1
@@ -26,7 +26,7 @@
 [debug] == resolving dependencies default#knolx$sources_2.11;1.0->org.typelevel#cats_2.11;0.6.1 [compile->master]
 [debug] == resolving dependencies default#knolx$sources_2.11;1.0->org.typelevel#cats-macros_2.11;0.6.1 [compile->default(compile)]
 [info] Resolving org.typelevel#cats-macros_2.11;0.6.1 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@33be3f12
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@11ee32ea
 [debug] sbt-chain: module revision found in cache: org.typelevel#cats-macros_2.11;0.6.1
 [debug] 	found org.typelevel#cats-macros_2.11;0.6.1 in sbt-chain
 [debug] 	[0.6.1] org.typelevel#cats-macros_2.11;0.6.1
@@ -35,7 +35,7 @@
 [debug] == resolving dependencies default#knolx$sources_2.11;1.0->org.typelevel#cats-macros_2.11;0.6.1 [compile->master]
 [debug] == resolving dependencies default#knolx$sources_2.11;1.0->com.github.mpilquist#simulacrum_2.11;0.7.0 [compile->default(compile)]
 [info] Resolving com.github.mpilquist#simulacrum_2.11;0.7.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7baea717
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@25f071ea
 [debug] sbt-chain: module revision found in cache: com.github.mpilquist#simulacrum_2.11;0.7.0
 [debug] 	found com.github.mpilquist#simulacrum_2.11;0.7.0 in sbt-chain
 [debug] == resolving dependencies default#knolx$sources_2.11;1.0->com.github.mpilquist#simulacrum_2.11;0.7.0 [compile->runtime]
@@ -43,7 +43,7 @@
 [debug] == resolving dependencies default#knolx$sources_2.11;1.0->com.github.mpilquist#simulacrum_2.11;0.7.0 [compile->master]
 [debug] == resolving dependencies default#knolx$sources_2.11;1.0->org.typelevel#macro-compat_2.11;1.1.0 [compile->default(compile)]
 [info] Resolving org.typelevel#macro-compat_2.11;1.1.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2f121d5b
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5ddebd68
 [debug] sbt-chain: module revision found in cache: org.typelevel#macro-compat_2.11;1.1.0
 [debug] 	found org.typelevel#macro-compat_2.11;1.1.0 in sbt-chain
 [debug] == resolving dependencies default#knolx$sources_2.11;1.0->org.typelevel#macro-compat_2.11;1.1.0 [compile->runtime]
@@ -51,7 +51,7 @@
 [debug] == resolving dependencies default#knolx$sources_2.11;1.0->org.typelevel#macro-compat_2.11;1.1.0 [compile->master]
 [debug] == resolving dependencies default#knolx$sources_2.11;1.0->org.typelevel#machinist_2.11;0.4.1 [compile->default(compile)]
 [info] Resolving org.typelevel#machinist_2.11;0.4.1 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@25b8a045
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@772f60d7
 [debug] sbt-chain: module revision found in cache: org.typelevel#machinist_2.11;0.4.1
 [debug] 	found org.typelevel#machinist_2.11;0.4.1 in sbt-chain
 [debug] == resolving dependencies default#knolx$sources_2.11;1.0->org.typelevel#machinist_2.11;0.4.1 [compile->runtime]
@@ -59,7 +59,7 @@
 [debug] == resolving dependencies default#knolx$sources_2.11;1.0->org.typelevel#machinist_2.11;0.4.1 [compile->master]
 [debug] == resolving dependencies default#knolx$sources_2.11;1.0->org.scala-lang#scala-reflect;2.11.7 [compile->default(compile)]
 [info] Resolving org.scala-lang#scala-reflect;2.11.7 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@40790396
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5c604376
 [debug] sbt-chain: module revision found in cache: org.scala-lang#scala-reflect;2.11.7
 [debug] 	found org.scala-lang#scala-reflect;2.11.7 in sbt-chain
 [debug] 	[2.11.7] org.scala-lang#scala-reflect;2.11.7
@@ -68,7 +68,7 @@
 [debug] == resolving dependencies default#knolx$sources_2.11;1.0->org.scala-lang#scala-reflect;2.11.7 [compile->master]
 [debug] == resolving dependencies default#knolx$sources_2.11;1.0->org.typelevel#cats-kernel_2.11;0.6.1 [compile->default(compile)]
 [info] Resolving org.typelevel#cats-kernel_2.11;0.6.1 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@a48115b
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@241c27e6
 [debug] sbt-chain: module revision found in cache: org.typelevel#cats-kernel_2.11;0.6.1
 [debug] 	found org.typelevel#cats-kernel_2.11;0.6.1 in sbt-chain
 [debug] 	[0.6.1] org.typelevel#cats-kernel_2.11;0.6.1
@@ -77,7 +77,7 @@
 [debug] == resolving dependencies default#knolx$sources_2.11;1.0->org.typelevel#cats-kernel_2.11;0.6.1 [compile->master]
 [debug] == resolving dependencies default#knolx$sources_2.11;1.0->org.typelevel#cats-kernel-laws_2.11;0.6.1 [compile->default(compile)]
 [info] Resolving org.typelevel#cats-kernel-laws_2.11;0.6.1 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@c1a2e1f
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@30241dd4
 [debug] sbt-chain: module revision found in cache: org.typelevel#cats-kernel-laws_2.11;0.6.1
 [debug] 	found org.typelevel#cats-kernel-laws_2.11;0.6.1 in sbt-chain
 [debug] 	[0.6.1] org.typelevel#cats-kernel-laws_2.11;0.6.1
@@ -86,7 +86,7 @@
 [debug] == resolving dependencies default#knolx$sources_2.11;1.0->org.typelevel#cats-kernel-laws_2.11;0.6.1 [compile->master]
 [debug] == resolving dependencies default#knolx$sources_2.11;1.0->org.scalacheck#scalacheck_2.11;1.12.5 [compile->default(compile)]
 [info] Resolving org.scalacheck#scalacheck_2.11;1.12.5 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3d0d50b4
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3743adb7
 [debug] sbt-chain: module revision found in cache: org.scalacheck#scalacheck_2.11;1.12.5
 [debug] 	found org.scalacheck#scalacheck_2.11;1.12.5 in sbt-chain
 [debug] == resolving dependencies default#knolx$sources_2.11;1.0->org.scalacheck#scalacheck_2.11;1.12.5 [compile->runtime]
@@ -94,7 +94,7 @@
 [debug] == resolving dependencies default#knolx$sources_2.11;1.0->org.scalacheck#scalacheck_2.11;1.12.5 [compile->master]
 [debug] == resolving dependencies default#knolx$sources_2.11;1.0->org.scala-sbt#test-interface;1.0 [compile->default(compile)]
 [info] Resolving org.scala-sbt#test-interface;1.0 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5b3391e0
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@25da2b6
 [debug] sbt-chain: module revision found in cache: org.scala-sbt#test-interface;1.0
 [debug] 	found org.scala-sbt#test-interface;1.0 in sbt-chain
 [debug] == resolving dependencies default#knolx$sources_2.11;1.0->org.scala-sbt#test-interface;1.0 [compile->runtime]
@@ -102,7 +102,7 @@
 [debug] == resolving dependencies default#knolx$sources_2.11;1.0->org.scala-sbt#test-interface;1.0 [compile->master]
 [debug] == resolving dependencies default#knolx$sources_2.11;1.0->org.typelevel#discipline_2.11;0.4 [compile->default(compile)]
 [info] Resolving org.typelevel#discipline_2.11;0.4 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@511aac29
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@6de6c9f4
 [debug] sbt-chain: module revision found in cache: org.typelevel#discipline_2.11;0.4
 [debug] 	found org.typelevel#discipline_2.11;0.4 in sbt-chain
 [debug] == resolving dependencies default#knolx$sources_2.11;1.0->org.typelevel#discipline_2.11;0.4 [compile->runtime]
@@ -110,7 +110,7 @@
 [debug] == resolving dependencies default#knolx$sources_2.11;1.0->org.typelevel#discipline_2.11;0.4 [compile->master]
 [debug] == resolving dependencies default#knolx$sources_2.11;1.0->org.typelevel#catalysts-platform_2.11;0.0.2 [compile->default(compile)]
 [info] Resolving org.typelevel#catalysts-platform_2.11;0.0.2 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@31ad0b2d
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@25ad8e6d
 [debug] sbt-chain: module revision found in cache: org.typelevel#catalysts-platform_2.11;0.0.2
 [debug] 	found org.typelevel#catalysts-platform_2.11;0.0.2 in sbt-chain
 [debug] 	[0.0.2] org.typelevel#catalysts-platform_2.11;0.0.2
@@ -119,7 +119,7 @@
 [debug] == resolving dependencies default#knolx$sources_2.11;1.0->org.typelevel#catalysts-platform_2.11;0.0.2 [compile->master]
 [debug] == resolving dependencies default#knolx$sources_2.11;1.0->org.typelevel#catalysts-macros_2.11;0.0.2 [compile->default(compile)]
 [info] Resolving org.typelevel#catalysts-macros_2.11;0.0.2 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@1d1a8da0
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4b9f15
 [debug] sbt-chain: module revision found in cache: org.typelevel#catalysts-macros_2.11;0.0.2
 [debug] 	found org.typelevel#catalysts-macros_2.11;0.0.2 in sbt-chain
 [debug] 	[0.0.2] org.typelevel#catalysts-macros_2.11;0.0.2
@@ -128,7 +128,7 @@
 [debug] == resolving dependencies default#knolx$sources_2.11;1.0->org.typelevel#catalysts-macros_2.11;0.0.2 [compile->master]
 [debug] == resolving dependencies default#knolx$sources_2.11;1.0->org.typelevel#cats-core_2.11;0.6.1 [compile->default(compile)]
 [info] Resolving org.typelevel#cats-core_2.11;0.6.1 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@362881a
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@418cf7e5
 [debug] sbt-chain: module revision found in cache: org.typelevel#cats-core_2.11;0.6.1
 [debug] 	found org.typelevel#cats-core_2.11;0.6.1 in sbt-chain
 [debug] 	[0.6.1] org.typelevel#cats-core_2.11;0.6.1
@@ -137,7 +137,7 @@
 [debug] == resolving dependencies default#knolx$sources_2.11;1.0->org.typelevel#cats-core_2.11;0.6.1 [compile->master]
 [debug] == resolving dependencies default#knolx$sources_2.11;1.0->org.typelevel#cats-laws_2.11;0.6.1 [compile->default(compile)]
 [info] Resolving org.typelevel#cats-laws_2.11;0.6.1 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7b028254
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@34942223
 [debug] sbt-chain: module revision found in cache: org.typelevel#cats-laws_2.11;0.6.1
 [debug] 	found org.typelevel#cats-laws_2.11;0.6.1 in sbt-chain
 [debug] 	[0.6.1] org.typelevel#cats-laws_2.11;0.6.1
@@ -146,7 +146,7 @@
 [debug] == resolving dependencies default#knolx$sources_2.11;1.0->org.typelevel#cats-laws_2.11;0.6.1 [compile->master]
 [debug] == resolving dependencies default#knolx$sources_2.11;1.0->org.typelevel#cats-free_2.11;0.6.1 [compile->default(compile)]
 [info] Resolving org.typelevel#cats-free_2.11;0.6.1 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4efa6f3e
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@3b859329
 [debug] sbt-chain: module revision found in cache: org.typelevel#cats-free_2.11;0.6.1
 [debug] 	found org.typelevel#cats-free_2.11;0.6.1 in sbt-chain
 [debug] 	[0.6.1] org.typelevel#cats-free_2.11;0.6.1
@@ -1193,130 +1193,43 @@
 [debug] 	[NOT REQUIRED] org.scala-lang#scala-library;2.11.8!scala-library.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-lang#scala-library;2.11.8!scala-library.jar
 [debug] 	[NOT REQUIRED] org.typelevel#cats_2.11;0.6.1!cats_2.11.jar
-[debug] 		tried /home/knoldus-pallavi/.ivy2/local/org.typelevel/cats_2.11/0.6.1/srcs/cats_2.11-sources.jar
-[debug] 		tried https://jcenter.bintray.com/org/typelevel/cats_2.11/0.6.1/cats_2.11-0.6.1-sources.jar
-[info] downloading https://jcenter.bintray.com/org/typelevel/cats_2.11/0.6.1/cats_2.11-0.6.1-sources.jar ...
-[debug] 	jcenter: downloading https://jcenter.bintray.com/org/typelevel/cats_2.11/0.6.1/cats_2.11-0.6.1-sources.jar
-[debug] 	jcenter: downloading https://jcenter.bintray.com/org/typelevel/cats_2.11/0.6.1/cats_2.11-0.6.1-sources.jar.sha1
-[debug] sha1 OK for https://jcenter.bintray.com/org/typelevel/cats_2.11/0.6.1/cats_2.11-0.6.1-sources.jar
-[info] 	[SUCCESSFUL ] org.typelevel#cats_2.11;0.6.1!cats_2.11.jar(src) (1011ms)
+[debug] 	[NOT REQUIRED] org.typelevel#cats_2.11;0.6.1!cats_2.11.jar(src)
 [debug] 	[NOT REQUIRED] org.typelevel#cats-macros_2.11;0.6.1!cats-macros_2.11.jar
-[debug] 		tried /home/knoldus-pallavi/.ivy2/local/org.typelevel/cats-macros_2.11/0.6.1/srcs/cats-macros_2.11-sources.jar
-[debug] 		tried https://jcenter.bintray.com/org/typelevel/cats-macros_2.11/0.6.1/cats-macros_2.11-0.6.1-sources.jar
-[info] downloading https://jcenter.bintray.com/org/typelevel/cats-macros_2.11/0.6.1/cats-macros_2.11-0.6.1-sources.jar ...
-[debug] 	jcenter: downloading https://jcenter.bintray.com/org/typelevel/cats-macros_2.11/0.6.1/cats-macros_2.11-0.6.1-sources.jar
-[debug] 	jcenter: downloading https://jcenter.bintray.com/org/typelevel/cats-macros_2.11/0.6.1/cats-macros_2.11-0.6.1-sources.jar.sha1
-[debug] sha1 OK for https://jcenter.bintray.com/org/typelevel/cats-macros_2.11/0.6.1/cats-macros_2.11-0.6.1-sources.jar
-[info] 	[SUCCESSFUL ] org.typelevel#cats-macros_2.11;0.6.1!cats-macros_2.11.jar(src) (1007ms)
+[debug] 	[NOT REQUIRED] org.typelevel#cats-macros_2.11;0.6.1!cats-macros_2.11.jar(src)
 [debug] 	[NOT REQUIRED] com.github.mpilquist#simulacrum_2.11;0.7.0!simulacrum_2.11.jar
-[debug] 		tried /home/knoldus-pallavi/.ivy2/local/com.github.mpilquist/simulacrum_2.11/0.7.0/srcs/simulacrum_2.11-sources.jar
-[debug] 		tried https://jcenter.bintray.com/com/github/mpilquist/simulacrum_2.11/0.7.0/simulacrum_2.11-0.7.0-sources.jar
-[info] downloading https://jcenter.bintray.com/com/github/mpilquist/simulacrum_2.11/0.7.0/simulacrum_2.11-0.7.0-sources.jar ...
-[debug] 	jcenter: downloading https://jcenter.bintray.com/com/github/mpilquist/simulacrum_2.11/0.7.0/simulacrum_2.11-0.7.0-sources.jar
-[debug] 	jcenter: downloading https://jcenter.bintray.com/com/github/mpilquist/simulacrum_2.11/0.7.0/simulacrum_2.11-0.7.0-sources.jar.sha1
-[debug] sha1 OK for https://jcenter.bintray.com/com/github/mpilquist/simulacrum_2.11/0.7.0/simulacrum_2.11-0.7.0-sources.jar
-[info] 	[SUCCESSFUL ] com.github.mpilquist#simulacrum_2.11;0.7.0!simulacrum_2.11.jar(src) (1008ms)
+[debug] 	[NOT REQUIRED] com.github.mpilquist#simulacrum_2.11;0.7.0!simulacrum_2.11.jar(src)
 [debug] 	[NOT REQUIRED] org.typelevel#macro-compat_2.11;1.1.0!macro-compat_2.11.jar
-[debug] 		tried /home/knoldus-pallavi/.ivy2/local/org.typelevel/macro-compat_2.11/1.1.0/srcs/macro-compat_2.11-sources.jar
-[debug] 		tried https://jcenter.bintray.com/org/typelevel/macro-compat_2.11/1.1.0/macro-compat_2.11-1.1.0-sources.jar
-[info] downloading https://jcenter.bintray.com/org/typelevel/macro-compat_2.11/1.1.0/macro-compat_2.11-1.1.0-sources.jar ...
-[debug] 	jcenter: downloading https://jcenter.bintray.com/org/typelevel/macro-compat_2.11/1.1.0/macro-compat_2.11-1.1.0-sources.jar
-[debug] CLIENT ERROR: Not Found url=https://jcenter.bintray.com/org/typelevel/macro-compat_2.11/1.1.0/macro-compat_2.11-1.1.0-sources.jar.sha1
-[debug] 	jcenter: downloading https://jcenter.bintray.com/org/typelevel/macro-compat_2.11/1.1.0/macro-compat_2.11-1.1.0-sources.jar.md5
-[debug] md5 OK for https://jcenter.bintray.com/org/typelevel/macro-compat_2.11/1.1.0/macro-compat_2.11-1.1.0-sources.jar
-[info] 	[SUCCESSFUL ] org.typelevel#macro-compat_2.11;1.1.0!macro-compat_2.11.jar(src) (5328ms)
+[debug] 	[NOT REQUIRED] org.typelevel#macro-compat_2.11;1.1.0!macro-compat_2.11.jar(src)
 [debug] 	[NOT REQUIRED] org.typelevel#machinist_2.11;0.4.1!machinist_2.11.jar
-[debug] 		tried /home/knoldus-pallavi/.ivy2/local/org.typelevel/machinist_2.11/0.4.1/srcs/machinist_2.11-sources.jar
-[debug] 		tried https://jcenter.bintray.com/org/typelevel/machinist_2.11/0.4.1/machinist_2.11-0.4.1-sources.jar
-[info] downloading https://jcenter.bintray.com/org/typelevel/machinist_2.11/0.4.1/machinist_2.11-0.4.1-sources.jar ...
-[debug] 	jcenter: downloading https://jcenter.bintray.com/org/typelevel/machinist_2.11/0.4.1/machinist_2.11-0.4.1-sources.jar
-[debug] CLIENT ERROR: Not Found url=https://jcenter.bintray.com/org/typelevel/machinist_2.11/0.4.1/machinist_2.11-0.4.1-sources.jar.sha1
-[debug] 	jcenter: downloading https://jcenter.bintray.com/org/typelevel/machinist_2.11/0.4.1/machinist_2.11-0.4.1-sources.jar.md5
-[debug] md5 OK for https://jcenter.bintray.com/org/typelevel/machinist_2.11/0.4.1/machinist_2.11-0.4.1-sources.jar
-[info] 	[SUCCESSFUL ] org.typelevel#machinist_2.11;0.4.1!machinist_2.11.jar(src) (4933ms)
+[debug] 	[NOT REQUIRED] org.typelevel#machinist_2.11;0.4.1!machinist_2.11.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-lang#scala-reflect;2.11.7!scala-reflect.jar
 [debug] 	[NOT REQUIRED] org.scala-lang#scala-reflect;2.11.7!scala-reflect.jar(src)
-[debug] 		tried /home/knoldus-pallavi/.ivy2/local/org.typelevel/cats-kernel_2.11/0.6.1/srcs/cats-kernel_2.11-sources.jar
+[debug] 	[NOT REQUIRED] org.typelevel#cats-kernel_2.11;0.6.1!cats-kernel_2.11.jar(src)
 [debug] 	[NOT REQUIRED] org.typelevel#cats-kernel_2.11;0.6.1!cats-kernel_2.11.jar
-[debug] 		tried https://jcenter.bintray.com/org/typelevel/cats-kernel_2.11/0.6.1/cats-kernel_2.11-0.6.1-sources.jar
-[info] downloading https://jcenter.bintray.com/org/typelevel/cats-kernel_2.11/0.6.1/cats-kernel_2.11-0.6.1-sources.jar ...
-[debug] 	jcenter: downloading https://jcenter.bintray.com/org/typelevel/cats-kernel_2.11/0.6.1/cats-kernel_2.11-0.6.1-sources.jar
-[debug] 	jcenter: downloading https://jcenter.bintray.com/org/typelevel/cats-kernel_2.11/0.6.1/cats-kernel_2.11-0.6.1-sources.jar.sha1
-[debug] sha1 OK for https://jcenter.bintray.com/org/typelevel/cats-kernel_2.11/0.6.1/cats-kernel_2.11-0.6.1-sources.jar
-[info] 	[SUCCESSFUL ] org.typelevel#cats-kernel_2.11;0.6.1!cats-kernel_2.11.jar(src) (1551ms)
-[debug] 		tried /home/knoldus-pallavi/.ivy2/local/org.typelevel/cats-kernel-laws_2.11/0.6.1/srcs/cats-kernel-laws_2.11-sources.jar
+[debug] 	[NOT REQUIRED] org.typelevel#cats-kernel-laws_2.11;0.6.1!cats-kernel-laws_2.11.jar(src)
 [debug] 	[NOT REQUIRED] org.typelevel#cats-kernel-laws_2.11;0.6.1!cats-kernel-laws_2.11.jar
-[debug] 		tried https://jcenter.bintray.com/org/typelevel/cats-kernel-laws_2.11/0.6.1/cats-kernel-laws_2.11-0.6.1-sources.jar
-[info] downloading https://jcenter.bintray.com/org/typelevel/cats-kernel-laws_2.11/0.6.1/cats-kernel-laws_2.11-0.6.1-sources.jar ...
-[debug] 	jcenter: downloading https://jcenter.bintray.com/org/typelevel/cats-kernel-laws_2.11/0.6.1/cats-kernel-laws_2.11-0.6.1-sources.jar
-[debug] 	jcenter: downloading https://jcenter.bintray.com/org/typelevel/cats-kernel-laws_2.11/0.6.1/cats-kernel-laws_2.11-0.6.1-sources.jar.sha1
-[debug] sha1 OK for https://jcenter.bintray.com/org/typelevel/cats-kernel-laws_2.11/0.6.1/cats-kernel-laws_2.11-0.6.1-sources.jar
-[info] 	[SUCCESSFUL ] org.typelevel#cats-kernel-laws_2.11;0.6.1!cats-kernel-laws_2.11.jar(src) (1005ms)
 [debug] 	[NOT REQUIRED] org.scalacheck#scalacheck_2.11;1.12.5!scalacheck_2.11.jar
-[debug] 		tried /home/knoldus-pallavi/.ivy2/local/org.scalacheck/scalacheck_2.11/1.12.5/srcs/scalacheck_2.11-sources.jar
-[debug] 		tried https://jcenter.bintray.com/org/scalacheck/scalacheck_2.11/1.12.5/scalacheck_2.11-1.12.5-sources.jar
-[info] downloading https://jcenter.bintray.com/org/scalacheck/scalacheck_2.11/1.12.5/scalacheck_2.11-1.12.5-sources.jar ...
-[debug] 	jcenter: downloading https://jcenter.bintray.com/org/scalacheck/scalacheck_2.11/1.12.5/scalacheck_2.11-1.12.5-sources.jar
-[debug] 	jcenter: downloading https://jcenter.bintray.com/org/scalacheck/scalacheck_2.11/1.12.5/scalacheck_2.11-1.12.5-sources.jar.sha1
-[debug] sha1 OK for https://jcenter.bintray.com/org/scalacheck/scalacheck_2.11/1.12.5/scalacheck_2.11-1.12.5-sources.jar
-[info] 	[SUCCESSFUL ] org.scalacheck#scalacheck_2.11;1.12.5!scalacheck_2.11.jar(src) (1225ms)
+[debug] 	[NOT REQUIRED] org.scalacheck#scalacheck_2.11;1.12.5!scalacheck_2.11.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-sbt#test-interface;1.0!test-interface.jar
 [debug] 	[NOT REQUIRED] org.scala-sbt#test-interface;1.0!test-interface.jar(src)
 [debug] 	[NOT REQUIRED] org.typelevel#discipline_2.11;0.4!discipline_2.11.jar
-[debug] 		tried /home/knoldus-pallavi/.ivy2/local/org.typelevel/discipline_2.11/0.4/srcs/discipline_2.11-sources.jar
-[debug] 		tried https://jcenter.bintray.com/org/typelevel/discipline_2.11/0.4/discipline_2.11-0.4-sources.jar
-[info] downloading https://jcenter.bintray.com/org/typelevel/discipline_2.11/0.4/discipline_2.11-0.4-sources.jar ...
-[debug] 	jcenter: downloading https://jcenter.bintray.com/org/typelevel/discipline_2.11/0.4/discipline_2.11-0.4-sources.jar
-[debug] CLIENT ERROR: Not Found url=https://jcenter.bintray.com/org/typelevel/discipline_2.11/0.4/discipline_2.11-0.4-sources.jar.sha1
-[debug] 	jcenter: downloading https://jcenter.bintray.com/org/typelevel/discipline_2.11/0.4/discipline_2.11-0.4-sources.jar.md5
-[debug] md5 OK for https://jcenter.bintray.com/org/typelevel/discipline_2.11/0.4/discipline_2.11-0.4-sources.jar
-[info] 	[SUCCESSFUL ] org.typelevel#discipline_2.11;0.4!discipline_2.11.jar(src) (4621ms)
-[debug] 		tried /home/knoldus-pallavi/.ivy2/local/org.typelevel/catalysts-platform_2.11/0.0.2/srcs/catalysts-platform_2.11-sources.jar
+[debug] 	[NOT REQUIRED] org.typelevel#discipline_2.11;0.4!discipline_2.11.jar(src)
+[debug] 	[NOT REQUIRED] org.typelevel#catalysts-platform_2.11;0.0.2!catalysts-platform_2.11.jar(src)
 [debug] 	[NOT REQUIRED] org.typelevel#catalysts-platform_2.11;0.0.2!catalysts-platform_2.11.jar
-[debug] 		tried https://jcenter.bintray.com/org/typelevel/catalysts-platform_2.11/0.0.2/catalysts-platform_2.11-0.0.2-sources.jar
-[info] downloading https://jcenter.bintray.com/org/typelevel/catalysts-platform_2.11/0.0.2/catalysts-platform_2.11-0.0.2-sources.jar ...
-[debug] 	jcenter: downloading https://jcenter.bintray.com/org/typelevel/catalysts-platform_2.11/0.0.2/catalysts-platform_2.11-0.0.2-sources.jar
-[debug] 	jcenter: downloading https://jcenter.bintray.com/org/typelevel/catalysts-platform_2.11/0.0.2/catalysts-platform_2.11-0.0.2-sources.jar.sha1
-[debug] sha1 OK for https://jcenter.bintray.com/org/typelevel/catalysts-platform_2.11/0.0.2/catalysts-platform_2.11-0.0.2-sources.jar
-[info] 	[SUCCESSFUL ] org.typelevel#catalysts-platform_2.11;0.0.2!catalysts-platform_2.11.jar(src) (1289ms)
-[debug] 		tried /home/knoldus-pallavi/.ivy2/local/org.typelevel/catalysts-macros_2.11/0.0.2/srcs/catalysts-macros_2.11-sources.jar
+[debug] 	[NOT REQUIRED] org.typelevel#catalysts-macros_2.11;0.0.2!catalysts-macros_2.11.jar(src)
 [debug] 	[NOT REQUIRED] org.typelevel#catalysts-macros_2.11;0.0.2!catalysts-macros_2.11.jar
-[debug] 		tried https://jcenter.bintray.com/org/typelevel/catalysts-macros_2.11/0.0.2/catalysts-macros_2.11-0.0.2-sources.jar
-[info] downloading https://jcenter.bintray.com/org/typelevel/catalysts-macros_2.11/0.0.2/catalysts-macros_2.11-0.0.2-sources.jar ...
-[debug] 	jcenter: downloading https://jcenter.bintray.com/org/typelevel/catalysts-macros_2.11/0.0.2/catalysts-macros_2.11-0.0.2-sources.jar
-[debug] 	jcenter: downloading https://jcenter.bintray.com/org/typelevel/catalysts-macros_2.11/0.0.2/catalysts-macros_2.11-0.0.2-sources.jar.sha1
-[debug] sha1 OK for https://jcenter.bintray.com/org/typelevel/catalysts-macros_2.11/0.0.2/catalysts-macros_2.11-0.0.2-sources.jar
-[info] 	[SUCCESSFUL ] org.typelevel#catalysts-macros_2.11;0.0.2!catalysts-macros_2.11.jar(src) (960ms)
 [debug] 	[NOT REQUIRED] org.typelevel#cats-core_2.11;0.6.1!cats-core_2.11.jar
-[debug] 		tried /home/knoldus-pallavi/.ivy2/local/org.typelevel/cats-core_2.11/0.6.1/srcs/cats-core_2.11-sources.jar
-[debug] 		tried https://jcenter.bintray.com/org/typelevel/cats-core_2.11/0.6.1/cats-core_2.11-0.6.1-sources.jar
-[info] downloading https://jcenter.bintray.com/org/typelevel/cats-core_2.11/0.6.1/cats-core_2.11-0.6.1-sources.jar ...
-[debug] 	jcenter: downloading https://jcenter.bintray.com/org/typelevel/cats-core_2.11/0.6.1/cats-core_2.11-0.6.1-sources.jar
-[debug] 	jcenter: downloading https://jcenter.bintray.com/org/typelevel/cats-core_2.11/0.6.1/cats-core_2.11-0.6.1-sources.jar.sha1
-[debug] sha1 OK for https://jcenter.bintray.com/org/typelevel/cats-core_2.11/0.6.1/cats-core_2.11-0.6.1-sources.jar
-[info] 	[SUCCESSFUL ] org.typelevel#cats-core_2.11;0.6.1!cats-core_2.11.jar(src) (1481ms)
-[debug] 		tried /home/knoldus-pallavi/.ivy2/local/org.typelevel/cats-laws_2.11/0.6.1/srcs/cats-laws_2.11-sources.jar
+[debug] 	[NOT REQUIRED] org.typelevel#cats-core_2.11;0.6.1!cats-core_2.11.jar(src)
+[debug] 	[NOT REQUIRED] org.typelevel#cats-laws_2.11;0.6.1!cats-laws_2.11.jar(src)
 [debug] 	[NOT REQUIRED] org.typelevel#cats-laws_2.11;0.6.1!cats-laws_2.11.jar
-[debug] 		tried https://jcenter.bintray.com/org/typelevel/cats-laws_2.11/0.6.1/cats-laws_2.11-0.6.1-sources.jar
-[info] downloading https://jcenter.bintray.com/org/typelevel/cats-laws_2.11/0.6.1/cats-laws_2.11-0.6.1-sources.jar ...
-[debug] 	jcenter: downloading https://jcenter.bintray.com/org/typelevel/cats-laws_2.11/0.6.1/cats-laws_2.11-0.6.1-sources.jar
-[debug] 	jcenter: downloading https://jcenter.bintray.com/org/typelevel/cats-laws_2.11/0.6.1/cats-laws_2.11-0.6.1-sources.jar.sha1
-[debug] sha1 OK for https://jcenter.bintray.com/org/typelevel/cats-laws_2.11/0.6.1/cats-laws_2.11-0.6.1-sources.jar
-[info] 	[SUCCESSFUL ] org.typelevel#cats-laws_2.11;0.6.1!cats-laws_2.11.jar(src) (1118ms)
-[debug] 		tried /home/knoldus-pallavi/.ivy2/local/org.typelevel/cats-free_2.11/0.6.1/srcs/cats-free_2.11-sources.jar
+[debug] 	[NOT REQUIRED] org.typelevel#cats-free_2.11;0.6.1!cats-free_2.11.jar(src)
 [debug] 	[NOT REQUIRED] org.typelevel#cats-free_2.11;0.6.1!cats-free_2.11.jar
-[debug] 		tried https://jcenter.bintray.com/org/typelevel/cats-free_2.11/0.6.1/cats-free_2.11-0.6.1-sources.jar
-[info] downloading https://jcenter.bintray.com/org/typelevel/cats-free_2.11/0.6.1/cats-free_2.11-0.6.1-sources.jar ...
-[debug] 	jcenter: downloading https://jcenter.bintray.com/org/typelevel/cats-free_2.11/0.6.1/cats-free_2.11-0.6.1-sources.jar
-[debug] 	jcenter: downloading https://jcenter.bintray.com/org/typelevel/cats-free_2.11/0.6.1/cats-free_2.11-0.6.1-sources.jar.sha1
-[debug] sha1 OK for https://jcenter.bintray.com/org/typelevel/cats-free_2.11/0.6.1/cats-free_2.11-0.6.1-sources.jar
-[info] 	[SUCCESSFUL ] org.typelevel#cats-free_2.11;0.6.1!cats-free_2.11.jar(src) (943ms)
 [debug] 	[NOT REQUIRED] org.scala-lang#scala-compiler;2.11.8!scala-compiler.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-lang#scala-reflect;2.11.8!scala-reflect.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.11;1.0.4!scala-xml_2.11.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-parser-combinators_2.11;1.0.4!scala-parser-combinators_2.11.jar(src)
 [debug] 	[NOT REQUIRED] jline#jline;2.12.1!jline.jar(src)
-[debug] :: resolution report :: resolve 473ms :: artifacts dl 27640ms
+[debug] :: resolution report :: resolve 1180ms :: artifacts dl 65ms
 [debug] 	report for default#knolx$sources_2.11;1.0 compile produced in /home/knoldus-pallavi/Desktop/Knolx/target/resolution-cache/reports/default-knolx$sources_2.11-compile.xml
 [debug] 	report for default#knolx$sources_2.11;1.0 runtime produced in /home/knoldus-pallavi/Desktop/Knolx/target/resolution-cache/reports/default-knolx$sources_2.11-runtime.xml
 [debug] 	report for default#knolx$sources_2.11;1.0 test produced in /home/knoldus-pallavi/Desktop/Knolx/target/resolution-cache/reports/default-knolx$sources_2.11-test.xml
@@ -1330,4 +1243,4 @@
 [debug] 	report for default#knolx$sources_2.11;1.0 docs produced in /home/knoldus-pallavi/Desktop/Knolx/target/resolution-cache/reports/default-knolx$sources_2.11-docs.xml
 [debug] 	report for default#knolx$sources_2.11;1.0 pom produced in /home/knoldus-pallavi/Desktop/Knolx/target/resolution-cache/reports/default-knolx$sources_2.11-pom.xml
 [debug] 	report for default#knolx$sources_2.11;1.0 scala-tool produced in /home/knoldus-pallavi/Desktop/Knolx/target/resolution-cache/reports/default-knolx$sources_2.11-scala-tool.xml
-[debug] 	resolve done (473ms resolve - 27640ms download)
+[debug] 	resolve done (1180ms resolve - 65ms download)

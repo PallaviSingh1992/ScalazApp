@@ -16,3 +16,36 @@ def transformedLength = stringContainer.apply(lengthOf)
 val result: MyContainer[Int] = transformedLength(stringContainer)
 
 result.value
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+trait Applicative[F[_]] {
+  def apply[A, B](f: F[A => B]): F[A] => F[B]
+}
+
+ */

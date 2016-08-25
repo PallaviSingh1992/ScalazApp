@@ -14,16 +14,22 @@ MyContainer[String]=>MyContainer[Int]
 We need :
 def lengthOfString(str:MyContainer[String]):MyContainer[Int]
 */
+
+//Application 1
 def rawLengthOfString(str: String): Int = str.length
 val stringContainer: MyContainer[String] = new MyContainer("Knoldus Software LLP")
 val transformedLength = stringContainer.map(rawLengthOfString)
 val result: MyContainer[Int] = transformedLength(stringContainer)
 result.value
+
+//Application 2
 def rawIntConversion(num:Int):String=num.toString
 val intContainer:MyContainer[Int]= new MyContainer(100)
 val transformedInt=intContainer.map(rawIntConversion)
 val res:MyContainer[String]=transformedInt(intContainer)
 res.value.length
+
+//Application 3
 class Book(bookName:String,bookPrice:Double,bookAuthor:String){
   var name:String=bookName
   var price:Double=bookPrice

@@ -4,7 +4,7 @@
 		module="knolx$sources_2.11"
 		revision="1.0"
 		status="integration"
-		publication="20160821222250"
+		publication="20160825234718"
 	/>
 	<configurations>
 		<conf name="compile" visibility="public" description=""/>

@@ -7,7 +7,7 @@
 		revision="1.0"
 		conf="test-internal"
 		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool"
-		date="20160821222250"/>
+		date="20160825234718"/>
 	<dependencies>
 		<module organisation="org.typelevel" name="cats_2.11">
 			<revision name="0.6.1" status="release" pubdate="20160714235521" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/typelevel/cats" extra-info.apiURL="http://typelevel.org/cats/api/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="1">
@@ -18,7 +18,7 @@
 					<artifact name="cats_2.11" type="jar" ext="jar" status="no" details="" size="304" time="0" location="/home/knoldus-pallavi/.ivy2/cache/org.typelevel/cats_2.11/jars/cats_2.11-0.6.1.jar">
 						<origin-location is-local="false" location="https://jcenter.bintray.com/org/typelevel/cats_2.11/0.6.1/cats_2.11-0.6.1.jar"/>
 					</artifact>
-					<artifact name="cats_2.11" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="248" time="1011" location="/home/knoldus-pallavi/.ivy2/cache/org.typelevel/cats_2.11/srcs/cats_2.11-0.6.1-sources.jar">
+					<artifact name="cats_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="248" time="0" location="/home/knoldus-pallavi/.ivy2/cache/org.typelevel/cats_2.11/srcs/cats_2.11-0.6.1-sources.jar">
 						<origin-location is-local="false" location="https://jcenter.bintray.com/org/typelevel/cats_2.11/0.6.1/cats_2.11-0.6.1-sources.jar"/>
 					</artifact>
 				</artifacts>
@@ -30,7 +30,7 @@
 				<metadata-artifact status="no" details="" size="3689" time="0" location="/home/knoldus-pallavi/.ivy2/cache/org.typelevel/cats-free_2.11/ivy-0.6.1.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/typelevel/cats-free_2.11/0.6.1/cats-free_2.11-0.6.1.pom"/>
 				<caller organisation="default" name="knolx$sources_2.11" conf="test, compile, provided, test-internal, runtime, optional" rev="0.6.1" rev-constraint-default="0.6.1" rev-constraint-dynamic="0.6.1" callerrev="1.0" extra-info.apiURL="http://typelevel.org/cats/api/"/>
 				<artifacts>
-					<artifact name="cats-free_2.11" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="6561" time="943" location="/home/knoldus-pallavi/.ivy2/cache/org.typelevel/cats-free_2.11/srcs/cats-free_2.11-0.6.1-sources.jar">
+					<artifact name="cats-free_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="6561" time="0" location="/home/knoldus-pallavi/.ivy2/cache/org.typelevel/cats-free_2.11/srcs/cats-free_2.11-0.6.1-sources.jar">
 						<origin-location is-local="false" location="https://jcenter.bintray.com/org/typelevel/cats-free_2.11/0.6.1/cats-free_2.11-0.6.1-sources.jar"/>
 					</artifact>
 					<artifact name="cats-free_2.11" type="jar" ext="jar" status="no" details="" size="87665" time="0" location="/home/knoldus-pallavi/.ivy2/cache/org.typelevel/cats-free_2.11/jars/cats-free_2.11-0.6.1.jar">
@@ -45,7 +45,7 @@
 				<metadata-artifact status="no" details="" size="4439" time="0" location="/home/knoldus-pallavi/.ivy2/cache/org.typelevel/cats-laws_2.11/ivy-0.6.1.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/typelevel/cats-laws_2.11/0.6.1/cats-laws_2.11-0.6.1.pom"/>
 				<caller organisation="default" name="knolx$sources_2.11" conf="test, compile, provided, test-internal, runtime, optional" rev="0.6.1" rev-constraint-default="0.6.1" rev-constraint-dynamic="0.6.1" callerrev="1.0" extra-info.apiURL="http://typelevel.org/cats/api/"/>
 				<artifacts>
-					<artifact name="cats-laws_2.11" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="44267" time="1118" location="/home/knoldus-pallavi/.ivy2/cache/org.typelevel/cats-laws_2.11/srcs/cats-laws_2.11-0.6.1-sources.jar">
+					<artifact name="cats-laws_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="44267" time="0" location="/home/knoldus-pallavi/.ivy2/cache/org.typelevel/cats-laws_2.11/srcs/cats-laws_2.11-0.6.1-sources.jar">
 						<origin-location is-local="false" location="https://jcenter.bintray.com/org/typelevel/cats-laws_2.11/0.6.1/cats-laws_2.11-0.6.1-sources.jar"/>
 					</artifact>
 					<artifact name="cats-laws_2.11" type="jar" ext="jar" status="no" details="" size="962722" time="0" location="/home/knoldus-pallavi/.ivy2/cache/org.typelevel/cats-laws_2.11/jars/cats-laws_2.11-0.6.1.jar">
@@ -63,7 +63,7 @@
 					<artifact name="cats-core_2.11" type="jar" ext="jar" status="no" details="" size="2580933" time="0" location="/home/knoldus-pallavi/.ivy2/cache/org.typelevel/cats-core_2.11/jars/cats-core_2.11-0.6.1.jar">
 						<origin-location is-local="false" location="https://jcenter.bintray.com/org/typelevel/cats-core_2.11/0.6.1/cats-core_2.11-0.6.1.jar"/>
 					</artifact>
-					<artifact name="cats-core_2.11" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="95144" time="1481" location="/home/knoldus-pallavi/.ivy2/cache/org.typelevel/cats-core_2.11/srcs/cats-core_2.11-0.6.1-sources.jar">
+					<artifact name="cats-core_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="95144" time="0" location="/home/knoldus-pallavi/.ivy2/cache/org.typelevel/cats-core_2.11/srcs/cats-core_2.11-0.6.1-sources.jar">
 						<origin-location is-local="false" location="https://jcenter.bintray.com/org/typelevel/cats-core_2.11/0.6.1/cats-core_2.11-0.6.1-sources.jar"/>
 					</artifact>
 				</artifacts>
@@ -75,7 +75,7 @@
 				<metadata-artifact status="no" details="" size="3968" time="0" location="/home/knoldus-pallavi/.ivy2/cache/org.typelevel/cats-kernel-laws_2.11/ivy-0.6.1.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/typelevel/cats-kernel-laws_2.11/0.6.1/cats-kernel-laws_2.11-0.6.1.pom"/>
 				<caller organisation="default" name="knolx$sources_2.11" conf="test, compile, provided, test-internal, runtime, optional" rev="0.6.1" rev-constraint-default="0.6.1" rev-constraint-dynamic="0.6.1" callerrev="1.0" extra-info.apiURL="http://typelevel.org/cats/api/"/>
 				<artifacts>
-					<artifact name="cats-kernel-laws_2.11" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="5094" time="1005" location="/home/knoldus-pallavi/.ivy2/cache/org.typelevel/cats-kernel-laws_2.11/srcs/cats-kernel-laws_2.11-0.6.1-sources.jar">
+					<artifact name="cats-kernel-laws_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="5094" time="0" location="/home/knoldus-pallavi/.ivy2/cache/org.typelevel/cats-kernel-laws_2.11/srcs/cats-kernel-laws_2.11-0.6.1-sources.jar">
 						<origin-location is-local="false" location="https://jcenter.bintray.com/org/typelevel/cats-kernel-laws_2.11/0.6.1/cats-kernel-laws_2.11-0.6.1-sources.jar"/>
 					</artifact>
 					<artifact name="cats-kernel-laws_2.11" type="jar" ext="jar" status="no" details="" size="155308" time="0" location="/home/knoldus-pallavi/.ivy2/cache/org.typelevel/cats-kernel-laws_2.11/jars/cats-kernel-laws_2.11-0.6.1.jar">
@@ -90,7 +90,7 @@
 				<metadata-artifact status="no" details="" size="3319" time="0" location="/home/knoldus-pallavi/.ivy2/cache/org.typelevel/catalysts-platform_2.11/ivy-0.0.2.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/typelevel/catalysts-platform_2.11/0.0.2/catalysts-platform_2.11-0.0.2.pom"/>
 				<caller organisation="default" name="knolx$sources_2.11" conf="test, compile, provided, test-internal, runtime, optional" rev="0.0.2" rev-constraint-default="0.0.2" rev-constraint-dynamic="0.0.2" callerrev="1.0" extra-info.apiURL="https://InTheNow.github.io/catalysts/api/"/>
 				<artifacts>
-					<artifact name="catalysts-platform_2.11" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="663" time="1289" location="/home/knoldus-pallavi/.ivy2/cache/org.typelevel/catalysts-platform_2.11/srcs/catalysts-platform_2.11-0.0.2-sources.jar">
+					<artifact name="catalysts-platform_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="663" time="0" location="/home/knoldus-pallavi/.ivy2/cache/org.typelevel/catalysts-platform_2.11/srcs/catalysts-platform_2.11-0.0.2-sources.jar">
 						<origin-location is-local="false" location="https://jcenter.bintray.com/org/typelevel/catalysts-platform_2.11/0.0.2/catalysts-platform_2.11-0.0.2-sources.jar"/>
 					</artifact>
 					<artifact name="catalysts-platform_2.11" type="jar" ext="jar" status="no" details="" size="1521" time="0" location="/home/knoldus-pallavi/.ivy2/cache/org.typelevel/catalysts-platform_2.11/jars/catalysts-platform_2.11-0.0.2.jar">
@@ -105,7 +105,7 @@
 				<metadata-artifact status="no" details="" size="3612" time="0" location="/home/knoldus-pallavi/.ivy2/cache/org.typelevel/catalysts-macros_2.11/ivy-0.0.2.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/typelevel/catalysts-macros_2.11/0.0.2/catalysts-macros_2.11-0.0.2.pom"/>
 				<caller organisation="default" name="knolx$sources_2.11" conf="test, compile, provided, test-internal, runtime, optional" rev="0.0.2" rev-constraint-default="0.0.2" rev-constraint-dynamic="0.0.2" callerrev="1.0" extra-info.apiURL="https://InTheNow.github.io/catalysts/api/"/>
 				<artifacts>
-					<artifact name="catalysts-macros_2.11" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="1435" time="960" location="/home/knoldus-pallavi/.ivy2/cache/org.typelevel/catalysts-macros_2.11/srcs/catalysts-macros_2.11-0.0.2-sources.jar">
+					<artifact name="catalysts-macros_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="1435" time="0" location="/home/knoldus-pallavi/.ivy2/cache/org.typelevel/catalysts-macros_2.11/srcs/catalysts-macros_2.11-0.0.2-sources.jar">
 						<origin-location is-local="false" location="https://jcenter.bintray.com/org/typelevel/catalysts-macros_2.11/0.0.2/catalysts-macros_2.11-0.0.2-sources.jar"/>
 					</artifact>
 					<artifact name="catalysts-macros_2.11" type="jar" ext="jar" status="no" details="" size="11753" time="0" location="/home/knoldus-pallavi/.ivy2/cache/org.typelevel/catalysts-macros_2.11/jars/catalysts-macros_2.11-0.0.2.jar">
@@ -123,7 +123,7 @@
 					<artifact name="discipline_2.11" type="jar" ext="jar" status="no" details="" size="40986" time="0" location="/home/knoldus-pallavi/.ivy2/cache/org.typelevel/discipline_2.11/jars/discipline_2.11-0.4.jar">
 						<origin-location is-local="false" location="https://jcenter.bintray.com/org/typelevel/discipline_2.11/0.4/discipline_2.11-0.4.jar"/>
 					</artifact>
-					<artifact name="discipline_2.11" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="4124" time="4621" location="/home/knoldus-pallavi/.ivy2/cache/org.typelevel/discipline_2.11/srcs/discipline_2.11-0.4-sources.jar">
+					<artifact name="discipline_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="4124" time="0" location="/home/knoldus-pallavi/.ivy2/cache/org.typelevel/discipline_2.11/srcs/discipline_2.11-0.4-sources.jar">
 						<origin-location is-local="false" location="https://jcenter.bintray.com/org/typelevel/discipline_2.11/0.4/discipline_2.11-0.4-sources.jar"/>
 					</artifact>
 				</artifacts>
@@ -138,7 +138,7 @@
 					<artifact name="scalacheck_2.11" type="jar" ext="jar" status="no" details="" size="2800039" time="0" location="/home/knoldus-pallavi/.ivy2/cache/org.scalacheck/scalacheck_2.11/jars/scalacheck_2.11-1.12.5.jar">
 						<origin-location is-local="false" location="https://jcenter.bintray.com/org/scalacheck/scalacheck_2.11/1.12.5/scalacheck_2.11-1.12.5.jar"/>
 					</artifact>
-					<artifact name="scalacheck_2.11" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="43310" time="1225" location="/home/knoldus-pallavi/.ivy2/cache/org.scalacheck/scalacheck_2.11/srcs/scalacheck_2.11-1.12.5-sources.jar">
+					<artifact name="scalacheck_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="43310" time="0" location="/home/knoldus-pallavi/.ivy2/cache/org.scalacheck/scalacheck_2.11/srcs/scalacheck_2.11-1.12.5-sources.jar">
 						<origin-location is-local="false" location="https://jcenter.bintray.com/org/scalacheck/scalacheck_2.11/1.12.5/scalacheck_2.11-1.12.5-sources.jar"/>
 					</artifact>
 				</artifacts>
@@ -165,7 +165,7 @@
 				<metadata-artifact status="no" details="" size="3101" time="0" location="/home/knoldus-pallavi/.ivy2/cache/org.typelevel/cats-kernel_2.11/ivy-0.6.1.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/typelevel/cats-kernel_2.11/0.6.1/cats-kernel_2.11-0.6.1.pom"/>
 				<caller organisation="default" name="knolx$sources_2.11" conf="test, compile, provided, test-internal, runtime, optional" rev="0.6.1" rev-constraint-default="0.6.1" rev-constraint-dynamic="0.6.1" callerrev="1.0" extra-info.apiURL="http://typelevel.org/cats/api/"/>
 				<artifacts>
-					<artifact name="cats-kernel_2.11" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="21351" time="1551" location="/home/knoldus-pallavi/.ivy2/cache/org.typelevel/cats-kernel_2.11/srcs/cats-kernel_2.11-0.6.1-sources.jar">
+					<artifact name="cats-kernel_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="21351" time="0" location="/home/knoldus-pallavi/.ivy2/cache/org.typelevel/cats-kernel_2.11/srcs/cats-kernel_2.11-0.6.1-sources.jar">
 						<origin-location is-local="false" location="https://jcenter.bintray.com/org/typelevel/cats-kernel_2.11/0.6.1/cats-kernel_2.11-0.6.1-sources.jar"/>
 					</artifact>
 					<artifact name="cats-kernel_2.11" type="jar" ext="jar" status="no" details="" size="4225439" time="0" location="/home/knoldus-pallavi/.ivy2/cache/org.typelevel/cats-kernel_2.11/jars/cats-kernel_2.11-0.6.1.jar">
@@ -183,7 +183,7 @@
 					<artifact name="cats-macros_2.11" type="jar" ext="jar" status="no" details="" size="5578" time="0" location="/home/knoldus-pallavi/.ivy2/cache/org.typelevel/cats-macros_2.11/jars/cats-macros_2.11-0.6.1.jar">
 						<origin-location is-local="false" location="https://jcenter.bintray.com/org/typelevel/cats-macros_2.11/0.6.1/cats-macros_2.11-0.6.1.jar"/>
 					</artifact>
-					<artifact name="cats-macros_2.11" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="838" time="1007" location="/home/knoldus-pallavi/.ivy2/cache/org.typelevel/cats-macros_2.11/srcs/cats-macros_2.11-0.6.1-sources.jar">
+					<artifact name="cats-macros_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="838" time="0" location="/home/knoldus-pallavi/.ivy2/cache/org.typelevel/cats-macros_2.11/srcs/cats-macros_2.11-0.6.1-sources.jar">
 						<origin-location is-local="false" location="https://jcenter.bintray.com/org/typelevel/cats-macros_2.11/0.6.1/cats-macros_2.11-0.6.1-sources.jar"/>
 					</artifact>
 				</artifacts>
@@ -198,7 +198,7 @@
 					<artifact name="machinist_2.11" type="jar" ext="jar" status="no" details="" size="32684" time="0" location="/home/knoldus-pallavi/.ivy2/cache/org.typelevel/machinist_2.11/jars/machinist_2.11-0.4.1.jar">
 						<origin-location is-local="false" location="https://jcenter.bintray.com/org/typelevel/machinist_2.11/0.4.1/machinist_2.11-0.4.1.jar"/>
 					</artifact>
-					<artifact name="machinist_2.11" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="3391" time="4933" location="/home/knoldus-pallavi/.ivy2/cache/org.typelevel/machinist_2.11/srcs/machinist_2.11-0.4.1-sources.jar">
+					<artifact name="machinist_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="3391" time="0" location="/home/knoldus-pallavi/.ivy2/cache/org.typelevel/machinist_2.11/srcs/machinist_2.11-0.4.1-sources.jar">
 						<origin-location is-local="false" location="https://jcenter.bintray.com/org/typelevel/machinist_2.11/0.4.1/machinist_2.11-0.4.1-sources.jar"/>
 					</artifact>
 				</artifacts>
@@ -213,7 +213,7 @@
 					<artifact name="simulacrum_2.11" type="jar" ext="jar" status="no" details="" size="182437" time="0" location="/home/knoldus-pallavi/.ivy2/cache/com.github.mpilquist/simulacrum_2.11/jars/simulacrum_2.11-0.7.0.jar">
 						<origin-location is-local="false" location="https://jcenter.bintray.com/com/github/mpilquist/simulacrum_2.11/0.7.0/simulacrum_2.11-0.7.0.jar"/>
 					</artifact>
-					<artifact name="simulacrum_2.11" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="5880" time="1008" location="/home/knoldus-pallavi/.ivy2/cache/com.github.mpilquist/simulacrum_2.11/srcs/simulacrum_2.11-0.7.0-sources.jar">
+					<artifact name="simulacrum_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="5880" time="0" location="/home/knoldus-pallavi/.ivy2/cache/com.github.mpilquist/simulacrum_2.11/srcs/simulacrum_2.11-0.7.0-sources.jar">
 						<origin-location is-local="false" location="https://jcenter.bintray.com/com/github/mpilquist/simulacrum_2.11/0.7.0/simulacrum_2.11-0.7.0-sources.jar"/>
 					</artifact>
 				</artifacts>
@@ -228,7 +228,7 @@
 					<artifact name="macro-compat_2.11" type="jar" ext="jar" status="no" details="" size="3140" time="0" location="/home/knoldus-pallavi/.ivy2/cache/org.typelevel/macro-compat_2.11/jars/macro-compat_2.11-1.1.0.jar">
 						<origin-location is-local="false" location="https://jcenter.bintray.com/org/typelevel/macro-compat_2.11/1.1.0/macro-compat_2.11-1.1.0.jar"/>
 					</artifact>
-					<artifact name="macro-compat_2.11" type="src" ext="jar" extra-classifier="sources" status="successful" details="" size="1051" time="5328" location="/home/knoldus-pallavi/.ivy2/cache/org.typelevel/macro-compat_2.11/srcs/macro-compat_2.11-1.1.0-sources.jar">
+					<artifact name="macro-compat_2.11" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="1051" time="0" location="/home/knoldus-pallavi/.ivy2/cache/org.typelevel/macro-compat_2.11/srcs/macro-compat_2.11-1.1.0-sources.jar">
 						<origin-location is-local="false" location="https://jcenter.bintray.com/org/typelevel/macro-compat_2.11/1.1.0/macro-compat_2.11-1.1.0-sources.jar"/>
 					</artifact>
 				</artifacts>
