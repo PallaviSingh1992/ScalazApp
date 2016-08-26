@@ -1,19 +1,61 @@
-class MyContainer[T](val value: T) {
 
-  def flatMap[A, B](func: A => MyContainer[B]): MyContainer[A] => MyContainer[B] = {
-    (a: MyContainer[A]) => func(a.value)
+class Monad[T](val value: T) {
+
+  def flatMap[A, B](func: A => Monad[B]): Monad[A] => Monad[B] = {
+    (a: Monad[A]) => func(a.value)
   }
 }
 
-val stringContainer: MyContainer[String] = new MyContainer("Knoldus Software LLP")
 
-def lengthOf(str: String) = new MyContainer(str.length)
+val stringContainer: Monad[String] = new Monad("Knoldus Software LLP")
+
+def lengthOf(str: String) = new Monad(str.length)
 
 val transformedLength = stringContainer.flatMap(lengthOf)
 
-val result: MyContainer[Int] = transformedLength(stringContainer)
+val result: Monad[Int] = transformedLength(stringContainer)
 
 result.value
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 //Treat generic monad as interface and concrete monad as implementation

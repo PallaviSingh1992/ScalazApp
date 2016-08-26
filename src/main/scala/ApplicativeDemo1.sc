@@ -1,19 +1,19 @@
-class MyContainer[T](val value: T) {
+class Applicative[T](val value: T) {
 
-  def apply[A, B](b: MyContainer[A => B]): MyContainer[A] => MyContainer[B] = {
-    (a: MyContainer[A]) => new MyContainer[B](b.value(a.value))
+  def apply[A, B](b: Applicative[A => B]): Applicative[A] => Applicative[B] = {
+    (a: Applicative[A]) => new Applicative[B](b.value(a.value))
   }
 }
 
-val stringContainer: MyContainer[String] = new MyContainer("Knoldus Software LLP")
+val stringContainer: Applicative[String] = new Applicative("Knoldus Software LLP")
 
 def rawLengthOfString(str: String): Int = str.length
 
-val lengthOf: MyContainer[String => Int] = new MyContainer(rawLengthOfString _)
+val lengthOf: Applicative[String => Int] = new Applicative(rawLengthOfString _)
 
 def transformedLength = stringContainer.apply(lengthOf)
 
-val result: MyContainer[Int] = transformedLength(stringContainer)
+val result: Applicative[Int] = transformedLength(stringContainer)
 
 result.value
 

@@ -13,6 +13,7 @@ val result :Future[Int => Int]= Future(42).map(f)
 
  Solution :Applicative Functors
   */
+
 val num1 = Future(3)
 val num2 = Future(4)
 val num3 = Future(5)

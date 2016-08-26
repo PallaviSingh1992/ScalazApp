@@ -1,7 +1,7 @@
 //FUNCTOR
-class MyContainer[T](val value: T) {
-  def map[A, B](rawFunc: A => B): MyContainer[A] => MyContainer[B] = {
-    (a: MyContainer[A]) => new MyContainer(rawFunc(a.value))
+class Functor[T](val value: T) {
+  def map[A, B](rawFunc: A => B): Functor[A] => Functor[B] = {
+    (a: Functor[A]) => new Functor(rawFunc(a.value))
   }
 }
 
@@ -9,24 +9,23 @@ class MyContainer[T](val value: T) {
 Apply Some Transformation on the value type in the Container
 without leaving the Container. Some other type shall also be in Container.
 Eg.
-MyContainer[String]=>MyContainer[Int]
+Functor[String]=>Functor[Int]
 
 We need :
-def lengthOfString(str:MyContainer[String]):MyContainer[Int]
+def lengthOfString(str:Functor[String]):Functor[Int]
 */
-
 //Application 1
 def rawLengthOfString(str: String): Int = str.length
-val stringContainer: MyContainer[String] = new MyContainer("Knoldus Software LLP")
+val stringContainer: Functor[String] = new Functor("Knoldus Software LLP")
 val transformedLength = stringContainer.map(rawLengthOfString)
-val result: MyContainer[Int] = transformedLength(stringContainer)
+val result: Functor[Int] = transformedLength(stringContainer)
 result.value
 
 //Application 2
 def rawIntConversion(num:Int):String=num.toString
-val intContainer:MyContainer[Int]= new MyContainer(100)
+val intContainer:Functor[Int]= new Functor(100)
 val transformedInt=intContainer.map(rawIntConversion)
-val res:MyContainer[String]=transformedInt(intContainer)
+val res:Functor[String]=transformedInt(intContainer)
 res.value.length
 
 //Application 3
@@ -47,7 +46,7 @@ class LibraryBook(bookName:String,bookPrice:Double,bookAuthor:String){
     generatedIspn
   }
 }
-val userContainer:MyContainer[Book]=new MyContainer(new Book("Scala",2000.12,"Martin Odersky"))
+val userContainer:Functor[Book]=new Functor(new Book("Scala",2000.12,"Martin Odersky"))
 def conversion(book:Book):LibraryBook= {
   val generateBook=new LibraryBook(book.name,book.price,book.author)
   generateBook.ispn("Fiction")
